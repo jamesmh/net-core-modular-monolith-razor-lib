@@ -1,0 +1,120 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "InsuranceApplication/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/InsuranceApplication.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/InsuranceApplication.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "MedicalQuestions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.0",
+        "compile": {
+          "bin/placeholder/MedicalQuestions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MedicalQuestions.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceApplication/1.0.0": {
+      "type": "project",
+      "path": "../Modules/InsuranceApplication/InsuranceApplication.csproj",
+      "msbuildProject": "../Modules/InsuranceApplication/InsuranceApplication.csproj"
+    },
+    "MedicalQuestions/1.0.0": {
+      "type": "project",
+      "path": "../Modules/MedicalQuestions/MedicalQuestions.csproj",
+      "msbuildProject": "../Modules/MedicalQuestions/MedicalQuestions.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "InsuranceApplication >= 1.0.0",
+      "MedicalQuestions >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\james\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\HostApp\\HostApp.csproj",
+      "projectName": "HostApp",
+      "projectPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\HostApp\\HostApp.csproj",
+      "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
+      "outputPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\HostApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {
+            "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\InsuranceApplication\\InsuranceApplication.csproj": {
+              "projectPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\InsuranceApplication\\InsuranceApplication.csproj"
+            },
+            "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj": {
+              "projectPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

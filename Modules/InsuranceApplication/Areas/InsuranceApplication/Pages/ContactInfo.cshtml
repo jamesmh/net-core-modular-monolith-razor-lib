@@ -1,0 +1,12 @@
+﻿@page
+@model InsuranceApplication.Areas.InsuranceApplication.Pages.ContactInfoModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<h1>Insurance Contact Info</h1>
+
+<form method="post">
+    <label>Email:</label>
+    <input asp-for="EmailAddress" required type="email" />
+
+    <button type="submit">submit</button>
+</form>

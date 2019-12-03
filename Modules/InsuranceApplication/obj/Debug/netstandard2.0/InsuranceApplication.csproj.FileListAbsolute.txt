@@ -1,0 +1,11 @@
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\bin\Debug\netstandard2.0\InsuranceApplication.deps.json
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\bin\Debug\netstandard2.0\InsuranceApplication.dll
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\bin\Debug\netstandard2.0\InsuranceApplication.pdb
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.csprojAssemblyReference.cache
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\staticwebassets\InsuranceApplication.StaticWebAssets.Manifest.cache
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\staticwebassets\InsuranceApplication.StaticWebAssets.xml
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.AssemblyInfoInputs.cache
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.AssemblyInfo.cs
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.RazorTargetAssemblyInfo.cache
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.dll
+D:\personal\repos\net-core-modular-monolith-razor-lib\Modules\InsuranceApplication\obj\Debug\netstandard2.0\InsuranceApplication.pdb
