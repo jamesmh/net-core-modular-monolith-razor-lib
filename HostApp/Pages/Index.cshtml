@@ -1,4 +1,6 @@
 ﻿@page
+@using InsuranceApplication.Components
+@using MedicalQuestions.Components
 @model IndexModel
 @{
     ViewData["Title"] = "Home page";
@@ -6,5 +8,15 @@
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
+
+    <div class="row">
+        <div class="col-6">
+            @(await Html.RenderComponentAsync<ApplicationDashboard>(RenderMode.ServerPrerendered))
+        </div>
+        <div class="col-6">
+            @(await Html.RenderComponentAsync<QuestionsDashboard>(RenderMode.ServerPrerendered))
+        </div>
+    </div>
+
     <a href="/InsuranceApplication/ContactInfo">Begin Your Application!</a>
 </div>

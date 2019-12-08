@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj": {}
+    "/home/james/Code/githubrepos/net-core-modular-monolith-razor-lib/Modules/MedicalQuestions/MedicalQuestions.csproj": {}
   },
   "projects": {
-    "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj": {
+    "/home/james/Code/githubrepos/net-core-modular-monolith-razor-lib/Modules/MedicalQuestions/MedicalQuestions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj",
+        "projectUniqueName": "/home/james/Code/githubrepos/net-core-modular-monolith-razor-lib/Modules/MedicalQuestions/MedicalQuestions.csproj",
         "projectName": "MedicalQuestions",
-        "projectPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\MedicalQuestions.csproj",
-        "packagesPath": "C:\\Users\\james\\.nuget\\packages\\",
-        "outputPath": "D:\\personal\\repos\\net-core-modular-monolith-razor-lib\\Modules\\MedicalQuestions\\obj\\",
+        "projectPath": "/home/james/Code/githubrepos/net-core-modular-monolith-razor-lib/Modules/MedicalQuestions/MedicalQuestions.csproj",
+        "packagesPath": "/home/james/.nuget/packages/",
+        "outputPath": "/home/james/Code/githubrepos/net-core-modular-monolith-razor-lib/Modules/MedicalQuestions/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\james\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/home/james/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -50,6 +48,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -58,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.100/RuntimeIdentifierGraph.json"
         }
       }
     }
