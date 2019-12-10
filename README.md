@@ -2,4 +2,4 @@
 
 See blog article: https://www.blog.jamesmichaelhickey.com/How-To-Build-Modular-Monoliths-With-NETCore-Razor-Class-Libraries/
 
-You should be able to clone this and the run `dotnet run` from `/HostApp`.
+Clone the repo and then run `dotnet run` from `/HostApp`.
