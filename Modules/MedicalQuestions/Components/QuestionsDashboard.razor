@@ -1,9 +1,18 @@
-﻿<h3>Questions Dashboard</h3>
+﻿@using Microsoft.AspNetCore.Components.Web
+
+<h3>Questions Dashboard</h3>
 
 <p>
     Time: @currentTime
 </p>
 
+<button @onclick="Update">Update</button>
+
 @code {
     private string currentTime = DateTime.Now.ToString();
+
+    private void Update()
+    {
+        currentTime = DateTime.Now.ToString();       
+    }
 }
